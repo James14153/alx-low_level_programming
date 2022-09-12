@@ -1,18 +1,22 @@
 #include <stdio.h>
 /**
- *main-program run from here
+ * main - prints the alphabet in lowercase.
  *
- * **return zero if no error and non-zero if error
+ * Return: Always 0.
  **/
 int main(void)
 {
 	char alphabet;
+
 	alphabet = 'a';
+
 	while (alphabet <= 'z')
 	{
 		putchar(alphabet);
 		alphabet++;
 	}
+
 	putchar('\n');
+
 	return (0);
 }
