@@ -4,15 +4,15 @@
  * 
  * return zero if no error and non-zero if error
  **/
-char main(void)
+int main(void)
 {
 	char alphabet;
 	alphabet = 'a';
 	while (alphabet <= 'z')
 	{
-		putchar(alphabet)
+		putchar(alphabet);
 		alphabet++;
 	}
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }
