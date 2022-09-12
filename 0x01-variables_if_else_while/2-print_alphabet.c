@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main-program run from here
- * 
- * return zero if no error and non-zero if error
+ *main-program run from here
+ *
+ * **return zero if no error and non-zero if error
  **/
 int main(void)
 {
