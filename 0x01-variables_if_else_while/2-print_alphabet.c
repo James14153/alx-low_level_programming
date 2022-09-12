@@ -4,7 +4,7 @@
  * 
  * return zero if no error and non-zero if error
  **/
-int main(void)
+char main(void)
 {
 	char alphabet;
 	alphabet = 'a';
