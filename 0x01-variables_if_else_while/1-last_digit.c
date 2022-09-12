@@ -7,7 +7,7 @@
  *Return:returns zero if error and non zero if no errors
  **/
 int main(void)
-}
+{
 int n;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
