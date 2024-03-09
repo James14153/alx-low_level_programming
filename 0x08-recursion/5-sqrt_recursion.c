@@ -1,11 +1,11 @@
 #include "main.h"
 
-/*
- * my_sqrt_recursion - the recursion function about the squareroot
+/**
+ * my_sqrt_recursion - the recursion function about the squareroot.
  *
- * @x - equal to n
- * @y - this the sum
- *
+ * @x: equal to n
+ * @y: this the sum
+ * Return: my_sqrt_recursion(x, y + 1));
  */
 
 int my_sqrt_recursion(int x, int y)
@@ -22,7 +22,7 @@ int my_sqrt_recursion(int x, int y)
  * _sqrt_recursion - This is the first function
  * @n: This is the value to find squareroot
  *
- * Return the  result of the function my_sqrt_recursion
+ * Return: the  result of the function my_sqrt_recursion
  */
 int _sqrt_recursion(int n)
 {
