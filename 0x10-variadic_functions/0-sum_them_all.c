@@ -2,7 +2,8 @@
 #include <stdio.h>
 #include "variadic_functions.h"
 
-/* sum_them_all -  returns the sum of all its parameters.
+/**
+ * sum_them_all -  returns the sum of all its parameters.
  * @n: The number of items
  * Return:  the sum of all its parameters.
  *         If n == 0, return 0
