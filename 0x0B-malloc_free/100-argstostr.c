@@ -3,7 +3,7 @@
 /**
 *len - returns length of str
 *@str: string counted
-*returns the length
+*Return: the length
 */
 int len(char *str)
 {
@@ -22,7 +22,7 @@ int len(char *str)
 *@ac: count of args passed to the function
 *@av: array of arguments
 *
-*Returns a  pointer to the new string
+*Return: a  pointer to the new string
 */
 
 char *argstostr(int ac, char **av)

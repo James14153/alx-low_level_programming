@@ -3,9 +3,9 @@
 /**
 * _strdup - returns a pointer to a newly allocated
 *space in memory, which contains a copy of the string given as a parameter.
-*@str - the String to be copied
+*@str: the String to be copied
 *
-*Returns  NULL in case of error, pointer to allocated space
+*Return:  NULL in case of error, pointer to allocated space
 */
 
 char *_strdup(char *str)

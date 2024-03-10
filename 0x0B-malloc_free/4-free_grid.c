@@ -2,9 +2,9 @@
 
 /**
 * free_grid - prpogram frees a 2d array
-*@grid - memory block to be freed
-*@height - the height of the array
-*returns void
+*@grid: memory block to be freed
+*@height: the height of the array
+*return: void
 */
 
 void free_grid(int **grid, int height)
@@ -15,4 +15,4 @@ void free_grid(int **grid, int height)
 		free(grid[j]);
 
 	free(grid);
-}	
+}
