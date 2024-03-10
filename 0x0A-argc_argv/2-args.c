@@ -3,10 +3,10 @@
  * main - prints all arguments it receives
  *        All arguments should be printed, including the first on
  *
- * @argc - argument count 
- * @argv -  argument vector
+ * @argc: argument count.
+ * @argv: argument vector
  *
- * Returns 0;
+ * Return: 0
  */
 int main(int argc, char *argv[])
 {
