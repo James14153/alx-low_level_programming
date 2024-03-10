@@ -1,11 +1,11 @@
 #include <stdio.h>
 /**
- * main : Writes a program that prints the number of arguments passed into it
+ * main - Writes a program that prints the number of arguments passed into it
  *
- * @args -  argument count
- * @argv - argument vector
+ * @args:  argument count
+ * @argv: argument vector
  *
- * Returns 0
+ * Return: 0
  *
  */
 int main(int args, char *argv[])
