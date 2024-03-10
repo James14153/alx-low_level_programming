@@ -5,9 +5,9 @@
  * malloc_checked - function allocates memory using malloc
  * @b: memory to allocate
  *
- * Returns a pointer to allocated memory or normal process termination if error
+ * Return: a pointer to allocated memory or normal process termination if error
  */
-void *malloc_checked(unsigned int b) 
+void *malloc_checked(unsigned int b)
 {
 	void *p;
 
