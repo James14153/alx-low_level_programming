@@ -3,10 +3,10 @@
 
 /**
  * main - program that multiplies two numbers
- * @argc - number of arguments passed to the function
- * @argv - argument vector of pointers to strings
+ * @argc: number of arguments passed to the function
+ * @argv: argument vector of pointers to strings
  *
- * Returns 0 else 1
+ * Return: 0 else 1
  */
 int main(int argc, char *argv[])
 {

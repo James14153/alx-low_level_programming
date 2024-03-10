@@ -4,10 +4,10 @@
 
 /**
  * main - adds positive numbers
- * @argc - number of arguments passed to the function
- * @argv - argument vector of pointers to strings
+ * @argc: number of arguments passed to the function
+ * @argv: argument vector of pointers to strings
  *
- * Returns 0 if success, else 1
+ * Return: 0 if success, else 1
  */
 int main(int argc, char *argv[])
 {
