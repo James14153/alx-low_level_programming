@@ -9,6 +9,7 @@
  */
 int main(int argc, char *argv[])
 {
+<<<<<<< HEAD
     int num1, num2;
     int (*operation)(int, int);
 
@@ -32,4 +33,28 @@ int main(int argc, char *argv[])
     printf("%d\n", operation(num1, num2));
 
     return (0);
+=======
+	int num1, num2;
+	int (*operation)(int, int);
+
+	if (argc != 4)
+	{
+		printf("Error\n");
+		return (98);
+	}
+
+	operation = get_op_func(argv[2]);
+
+	if (!operation || argv[2][1] != '\0')
+	{
+		printf("Error\n");
+		return (99);
+	}
+
+	num1 = atoi(argv[1]);
+	num2 = atoi(argv[3]);
+
+	printf("%d\n", operation(num1, num2));
+	return (0);
+>>>>>>> 86694ec27aaa30e0b1cce66cc8669ecf59e3ae27
 }
