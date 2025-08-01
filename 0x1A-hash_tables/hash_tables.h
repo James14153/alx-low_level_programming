@@ -33,5 +33,11 @@ typedef struct hash_node_s
 typedef struct hash_table_s
 {
 	unsigned long int size;
-	hash_table_t **array;
+	hash_node_t **array;
 }hash_table_t;
+
+/* function prototypes  */
+hash_table_t *hash_table_create(unsigned long int size);
+
+
+#endif

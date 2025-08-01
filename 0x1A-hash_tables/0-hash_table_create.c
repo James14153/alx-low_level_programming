@@ -1,4 +1,4 @@
-#include "main.h"
+#include "hash_tables.h"
 #include <stdlib.h>
 
 /*
@@ -8,13 +8,15 @@
  * Return: a pointer to the new hash table
  */
 
-hash_table_t *hash_table_create(unsigned int size)
+hash_table_t *hash_table_create(unsigned long int size)
 {
-	if (size == NULL)
+	hash_table_t  *hashtable;
+
+	if (size == 0)
 		return NULL;
 
-	hashtable = malloc(sizeof(hash_table_t))
-	if (ht == NULL)
+	hashtable = malloc(sizeof(hash_table_t));
+	if (hashtable == NULL)
 		return NULL;
 
 	hashtable->size = size;
